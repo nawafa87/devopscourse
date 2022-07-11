@@ -73,7 +73,7 @@ pipeline {
         }
         success {
             echo 'I will run in case of failure, and I will send an email in case of failure.'
-            
+
 
             echo 'I will send a success notification on the slack channel'
         }
